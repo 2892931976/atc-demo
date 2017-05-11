@@ -23,7 +23,7 @@ type LoginHandler struct {
 
 // 从服务器取出资源(一项或多项)
 func (this *LoginHandler) Get() {
-	// 已登录
+	// 已登录3
 	if this.Ctx.Query("flag") == "true" {
 		loginData := map[string]interface{}{
 			"username": "ATC-V!",
